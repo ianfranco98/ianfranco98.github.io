@@ -1,9 +1,8 @@
 const INFO = {
 	main: {
-		title: "WIP Portfolio",
-		name: "Ian Laurente",
+		title: "Game Dev Portfolio - Ian Laurente",
+		name: "Ian Laurente Game Dev Portfolio",
 		email: "---",
-		logo: "../logo.png",
 	},
 
 	socials: {
