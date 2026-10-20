@@ -1,0 +1,63 @@
+.game-jams {
+	border-top: 1px solid var(--border-color);
+	padding-top: 36px;
+	padding-bottom: 40px;
+}
+
+.game-jams h3 {
+	padding-top: 16px;
+	text-align: center;
+	color: var(--primary-color);
+	font-family: var(--secondary-font);
+	font-size: 22px;
+	margin: 0 0 10px;
+}
+
+.game-jams-intro {
+	padding-bottom: 16px;
+	text-align: center;
+	color: var(--secondary-color);
+	margin: 0 0 28px;
+}
+
+.game-jams-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 20px;
+}
+
+.game-jam-card {
+	min-width: 0;
+	overflow: hidden;
+	border: 1px solid var(--border-color);
+	border-radius: 20px;
+	background: var(--surface-color);
+	color: var(--primary-color);
+	text-decoration: none;
+	transition: border-color 0.2s ease;
+}
+
+.game-jam-card:hover {
+	border-color: var(--link-color);
+}
+
+.game-jam-card:focus-visible {
+	outline: 2px solid var(--link-color);
+	outline-offset: 4px;
+}
+
+.game-jam-card img {
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 630 / 500;
+	object-fit: contain;
+	background: #000;
+}
+
+@media (max-width: 600px) {
+	.game-jams-grid {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 16px;
+	}
+}

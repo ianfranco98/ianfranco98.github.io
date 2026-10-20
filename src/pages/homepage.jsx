@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faItchIo } from "@fortawesome/free-brands-svg-icons";
 import Footer from "../components/common/footer";
 import AllProjects from "../components/projects/allProjects";
+import GameJams from "../components/projects/gameJams";
 import Career from "../components/homepage/career";
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -40,13 +41,14 @@ const Homepage = () => {
 					</header>
 					<nav className="homepage-section-nav" aria-label="Portfolio sections">
 						<a href="#career">Professional Career</a>
-						<a href="#projects">Selected projects</a>
+						<a href="#projects">Personal Projects</a>
 					</nav>
 					<Career />
 					<section className="homepage-projects" id="projects" aria-labelledby="projects-title">
-						<h2 id="projects-title">Selected projects</h2>
+						<h2 id="projects-title">Personal Projects</h2>
 						<p className="homepage-projects-intro">Gameplay experiments, prototypes, and technical challenges.</p>
 						<AllProjects />
+						<GameJams />
 					</section>
 					<div className="page-footer"><Footer /></div>
 				</main>

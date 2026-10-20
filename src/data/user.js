@@ -33,6 +33,19 @@ const INFO = {
 	// 		"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	// },
 
+	gameJams: [
+		{
+			title: "Runetracer",
+			link: "https://lhycan.itch.io/runetracer",
+			thumbnail: "/game-jams/runetracer.jpg",
+		},
+		{
+			title: "Tlaloq, El nigromante",
+			link: "https://alvaropd.itch.io/tlaloq",
+			thumbnail: "/game-jams/tlaloq.png",
+		},
+	],
+
 	projects: [
 		{
 			title: "Unreal CTR Kart - Recreation",
