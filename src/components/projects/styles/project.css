@@ -3,7 +3,9 @@
 .project {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	opacity: 0.8;
+	border: 1px solid var(--border-color);
+	background: var(--surface-color);
+	transition: border-color 0.2s ease;
 	height: 100%;
 }
 
@@ -12,7 +14,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	border-color: var(--link-color);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -24,7 +26,11 @@
 
 .project-container {
 	border-radius: 20px;
-	padding: 30px;
+	padding: 26px;
+	box-sizing: border-box;
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 .project-logo {
@@ -68,6 +74,11 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: 100%;
 	}
 }
+
+.project > a { display: block; height: 100%; border-radius: inherit; }
+.project-description { line-height: 1.7; font-size: 14px; }
+.project-logo { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; padding: 7px; border-radius: 10px; background: #fff; }
+.project-link { color: var(--link-color); }

@@ -9,6 +9,7 @@ import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
+import ThemeToggle from "./components/common/themeToggle";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
@@ -22,6 +23,7 @@ function App() {
 
 	return (
 		<div className="App">
+			<ThemeToggle />
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />

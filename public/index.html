@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#000000" />
-		<title>Reactfolio</title>
+		<meta name="theme-color" content="#17171b" />
+		<title>Game Dev Portfolio - Ian Laurente</title>
+		<style>html { background: #17171b; } html[data-theme="light"] { background: #fff; }</style>
+		<script>
+			try {
+				if (localStorage.getItem("portfolio-theme") === "light") {
+					document.documentElement.dataset.theme = "light";
+				}
+			} catch (error) {}
+		</script>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>

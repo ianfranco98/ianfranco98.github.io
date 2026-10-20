@@ -37,7 +37,7 @@
 	padding-top: 0px;
 	padding-left: 35px;
 	padding-bottom: 20px;
-	border-left: 2px solid #f4f4f5;
+	border-left: 2px solid var(--border-color);
 	width: 100%;
 }
 

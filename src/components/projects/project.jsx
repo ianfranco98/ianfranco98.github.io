@@ -12,11 +12,8 @@ const Project = (props) => {
 		<React.Fragment>
 			<div className="project">
 				<Link to={link}>
-					<div style={{
-						backgroundImage: `url(${backgroundURL})`,
-						backgroundSize: 'cover',
-						borderRadius: '20px',
-						padding: '30px'
+					<div className="project-container" style={{
+						backgroundImage: `linear-gradient(var(--project-overlay), var(--project-overlay)), url(${backgroundURL})`,
 					}}>
 						<div className="project-logo">
 							<img src={logo} alt="logo" />
