@@ -1,0 +1,66 @@
+{
+  "flama-icon.webp": {
+    "page": "https://www.linkedin.com/company/flama-craftworks/",
+    "url": "https://media.licdn.com/dms/image/v2/D4D0BAQG3w2NWzYSRvQ/company-logo_200_200/company-logo_200_200/0/1721670007848/flama_craftworks_logo?e=2147483647&v=beta&t=s4Ux36VE5rzL3Oa2q30X_FuXbzWKSMDSiBTHjKUi9KA"
+  },
+  "trick-icon.webp": {
+    "page": "https://www.linkedin.com/company/trick-studios",
+    "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGijHtQWUwSNA/company-logo_200_200/B4DZbzhwSvGwAI-/0/1747842434813/trick_studios_logo?e=2147483647&v=beta&t=sjpDmSPXXBdf56B1tJwZJlXiwsK90ZRQMqu6no5bKCM"
+  },
+  "nimble-icon.webp": {
+    "page": "https://www.linkedin.com/company/saberlatam/",
+    "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE-MX8CVSYccw/company-logo_200_200/B4DZyRBelnG0AI-/0/1771959610101/nimblegiant_logo?e=2147483647&v=beta&t=Rs8pq1EZnpcC310iy-FrqE5fEkB3rQhqbns2yE-Dz1o"
+  },
+  "timefront-steam.webp": {
+    "page": "https://store.steampowered.com/app/3328840/",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3328840/f839eeb1999044ae469c236129427a31256ca4f3/header.jpg?t=1787253377"
+  },
+  "timefront-gameplay.gif": {
+    "page": "https://store.steampowered.com/app/3328840/",
+    "video": "https://video.akamai.steamstatic.com/store_trailers/3328840/922060227/2d3b766b29a8e779ec55e59b93d1339d8425ddcf/1758249773/hls_264_master.m3u8?t=1758277894",
+    "title": "Playtest trailer",
+    "startSeconds": 31,
+    "durationSeconds": 5,
+    "fps": 10,
+    "width": 400
+  },
+  "spikeball-steam.webp": {
+    "page": "https://store.steampowered.com/app/1906740/",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1906740/8f4ee9de9d772c6d4ee877920861b219cc127d3b/header.jpg?t=1763723111"
+  },
+  "spikeball-gameplay.gif": {
+    "page": "https://store.steampowered.com/app/1906740/",
+    "video": "https://video.akamai.steamstatic.com/store_trailers/1906740/1746184908/23f90e8a0f9b6a5d4221d736408007537e92611f/1763053582/hls_264_master.m3u8?t=1763372222",
+    "title": "Launch Trailer",
+    "startSeconds": 22,
+    "durationSeconds": 5,
+    "fps": 10,
+    "width": 400
+  },
+  "the-expanse-steam.webp": {
+    "page": "https://store.steampowered.com/app/1708010/",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1708010/header.jpg?t=1762798055"
+  },
+  "the-expanse-gameplay.gif": {
+    "page": "https://store.steampowered.com/app/1708010/",
+    "video": "https://video.akamai.steamstatic.com/store_trailers/1708010/609132/8f5cfac17b5890901138006a9c7db9620e66515a/1750727984/hls_264_master.m3u8?t=1699250347",
+    "title": "The Expanse: A Telltale Series Story Trailer",
+    "startSeconds": 33.4,
+    "durationSeconds": 3,
+    "fps": 10,
+    "width": 400
+  },
+  "quantum-league-steam.webp": {
+    "page": "https://store.steampowered.com/app/651150/",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/651150/header.jpg?t=1695300749"
+  },
+  "quantum-league-gameplay.gif": {
+    "page": "https://store.steampowered.com/app/651150/",
+    "video": "https://video.akamai.steamstatic.com/store_trailers/651150/362139/00950f2c883d6a8b8d1af6dd8296d086ec12e911/1751127968/hls_264_master.m3u8?t=1618493532",
+    "title": "Quantum League - Full Release",
+    "startSeconds": 24,
+    "durationSeconds": 4.5,
+    "fps": 10,
+    "width": 400
+  }
+}
