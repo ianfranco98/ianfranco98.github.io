@@ -1,4 +1,20 @@
 .all-projects-container { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; padding: 28px 0 40px; }
 .all-projects-project { min-width: 0; }
+.all-projects-scroll {
+	overflow-y: auto;
+	scrollbar-gutter: stable;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-color) transparent;
+	margin: 28px 0 40px;
+	padding-right: 5px;
+}
+.all-projects-scroll:hover { scrollbar-color: var(--tertiary-color) transparent; }
+.all-projects-scroll::-webkit-scrollbar { width: 6px; }
+.all-projects-scroll::-webkit-scrollbar-track { background: transparent; }
+.all-projects-scroll::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 999px; }
+.all-projects-scroll::-webkit-scrollbar-thumb:hover { background: var(--tertiary-color); }
+.all-projects-scroll::-webkit-scrollbar-button { display: none; }
+.all-projects-scroll > .all-projects-container { padding: 0; grid-auto-rows: 1fr; }
+.all-projects-scroll:focus-visible { outline: 2px solid var(--link-color); outline-offset: 4px; }
 @media (max-width: 900px) { .all-projects-container { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .all-projects-container { grid-template-columns: minmax(0, 1fr); gap: 16px; } }

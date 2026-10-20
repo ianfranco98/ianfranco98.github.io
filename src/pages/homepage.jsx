@@ -47,7 +47,7 @@ const Homepage = () => {
 					<section className="homepage-projects" id="projects" aria-labelledby="projects-title">
 						<h2 id="projects-title">Personal Projects</h2>
 						<p className="homepage-projects-intro">Gameplay experiments, prototypes, and technical challenges.</p>
-						<AllProjects />
+						<AllProjects scrollable />
 						<GameJams />
 					</section>
 					<div className="page-footer"><Footer /></div>
