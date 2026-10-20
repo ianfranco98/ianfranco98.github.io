@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faItchIo } from "@fortawesome/free-brands-svg-icons";
 import Footer from "../components/common/footer";
 import AllProjects from "../components/projects/allProjects";
+import Career from "../components/homepage/career";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import "./styles/homepage.css";
@@ -32,9 +33,16 @@ const Homepage = () => {
 							<a href={INFO.socials.github} target="_blank" rel="noreferrer" aria-label="GitHub">
 								<FontAwesomeIcon icon={faGithub} />
 							</a>
-							<a className="homepage-projects-link" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+							<a href={INFO.socials.itchio} target="_blank" rel="noreferrer" aria-label="itch.io">
+								<FontAwesomeIcon icon={faItchIo} />
+							</a>
 						</div>
 					</header>
+					<nav className="homepage-section-nav" aria-label="Portfolio sections">
+						<a href="#career">Professional Career</a>
+						<a href="#projects">Selected projects</a>
+					</nav>
+					<Career />
 					<section className="homepage-projects" id="projects" aria-labelledby="projects-title">
 						<h2 id="projects-title">Selected projects</h2>
 						<p className="homepage-projects-intro">Gameplay experiments, prototypes, and technical challenges.</p>

@@ -1,0 +1,115 @@
+const studios = {
+	flama: {
+		name: "Flama Craftworks",
+		url: "https://flamacraftworks.com/",
+		icon: "/images/career/flama-icon.webp",
+	},
+	trick: {
+		name: "Trick Studio",
+		url: "https://www.trickgs.com/",
+		icon: "/images/career/trick-icon.webp",
+	},
+	nimble: {
+		name: "Nimble Giant Entertainment",
+		url: "https://nimblegiant.com/",
+		icon: "/images/career/nimble-icon.webp",
+	},
+};
+
+// Roles, dates, and contributions transcribed from Ian's CV.
+// Artwork sources are recorded in public/images/career/sources.json.
+const career = [
+	{
+		id: "timefront",
+		game: "Timefront",
+		role: "Unreal Developer",
+		studio: studios.flama,
+		start: "2025-08",
+		end: "2026-04",
+		dates: "August 2025 - April 2026",
+		image: "/images/career/timefront-steam.webp",
+		preview: "/images/career/timefront-gameplay.gif",
+		url: "https://store.steampowered.com/app/3328840/Timefront/",
+		focus: "Multiplayer RTS",
+		tags: ["Unreal Engine", "Gameplay", "Campaign systems"],
+		contributions: [
+			"Developed gameplay features and a campaign system for a multiplayer real-time strategy game.",
+			"Worked with unit movement and crowd control in an RTS environment.",
+			"Collaborated with the team in a fully English-speaking environment.",
+		],
+	},
+	{
+		id: "the-expanse",
+		game: "The Expanse: A Telltale Series",
+		role: "Unreal Developer",
+		studio: studios.trick,
+		start: "2025-03",
+		end: "2025-05",
+		dates: "March 2025 - May 2025",
+		image: "/images/career/the-expanse-steam.webp",
+		preview: "/images/career/the-expanse-gameplay.gif",
+		url: "https://www.telltale.com/games/the-expanse/",
+		focus: "Nintendo Switch port",
+		tags: ["Unreal Engine 4", "Console porting", "Debugging"],
+		contributions: [
+			"Contributed to porting the PC game to Nintendo Switch.",
+			"Fixed bugs in a custom engine integrated with Unreal Engine 4.",
+			"Worked with console hardware constraints, memory consumption, loading issues, and optimization techniques.",
+		],
+	},
+	{
+		id: "spikeball",
+		game: "Spikeball",
+		role: "Unreal Backend Developer",
+		studio: studios.trick,
+		start: "2024-08",
+		end: "2025-02",
+		dates: "August 2024 - February 2025",
+		image: "/images/career/spikeball-steam.webp",
+		preview: "/images/career/spikeball-gameplay.gif",
+		url: "https://store.steampowered.com/app/1906740/Spikeball_Smash/",
+		focus: "Multiplatform sports game",
+		tags: ["Unreal Engine 5", "Azure PlayFab", "Backend"],
+		contributions: [
+			"Integrated Microsoft Azure PlayFab services with Unreal Engine 5.",
+			"Developed backend features including leaderboards and a ranked system.",
+			"Worked across a multiplatform environment spanning Steam, PlayStation, and Xbox.",
+		],
+	},
+	{
+		id: "unannounced-fps",
+		game: "Unannounced AAA multiplayer FPS",
+		role: "UE Gameplay Developer",
+		studio: studios.nimble,
+		start: "2021-03",
+		end: "2023-11",
+		dates: "March 2021 - November 2023",
+		focus: "Gameplay & UI",
+		tags: ["Gameplay Ability System", "UMG", "Coherent Gameface"],
+		contributions: [
+			"Programmed gameplay with extensive use of Unreal Engine's Gameplay Ability System (GAS).",
+			"Built menus and HUD with UMG and Coherent Gameface, and helped onboard junior developers.",
+			"Collaborated across disciplines using Scrum and SAFe frameworks.",
+		],
+	},
+	{
+		id: "quantum-league",
+		game: "Quantum League",
+		role: "UE Additional Programmer",
+		studio: studios.nimble,
+		start: "2020-11",
+		end: "2021-03",
+		dates: "November 2020 - March 2021",
+		image: "/images/career/quantum-league-steam.webp",
+		preview: "/images/career/quantum-league-gameplay.gif",
+		url: "https://nimblegiant.com/quantum-league/",
+		focus: "Competitive FPS",
+		tags: ["Unreal Engine", "Bug fixing"],
+		contributions: [
+			"Contributed general bug fixes to Quantum League.",
+			"Also worked on an unreleased project during this period.",
+		],
+	},
+];
+
+export default career;

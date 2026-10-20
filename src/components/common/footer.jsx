@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2025 Ian Laurente. All Rights Reserved.
+						© {new Date().getFullYear()} Ian Laurente. All Rights Reserved.
 					</div>
 				</div>
 			</div>
